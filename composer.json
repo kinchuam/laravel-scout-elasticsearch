@@ -1,0 +1,48 @@
+{
+    "name": "kinch/laravel-scout-elasticsearch",
+    "description": "Elastic Driver for Laravel Scout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kinchuam",
+            "email": "kinchuam@outlook.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "scout",
+        "elasticsearch",
+        "elastic"
+    ],
+    "require": {
+        "php": "^8.0",
+        "elasticsearch/elasticsearch": "^8.0",
+        "laravel/scout": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kinch\\LaravelScoutElasticsearch\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kinch\\LaravelScoutElasticsearch\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kinch\\LaravelScoutElasticsearch\\LaravelScoutElasticsearchServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
