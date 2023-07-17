@@ -14,10 +14,10 @@ composer require kinch/laravel-scout-elasticsearch
 Laravel will automatically register the driver service provider.
 
 Install elasticsearch-php client
-For use this library we recomend using the version at this (^7.9). reference: [elasticsearch/elasticsearch](https://github.com/elastic/elasticsearch-php/tree/7.9)
+For use this library we recomend using the version at this (>=7.2). reference: [elasticsearch/elasticsearch](https://github.com/elastic/elasticsearch-php/tree/7.2)
 
 ```shell
-composer require elasticsearch/elasticsearch:"^8.0"
+composer require elasticsearch/elasticsearch:">=7.2"
 ```
 
 ### Setting up Elasticsearch configuration
